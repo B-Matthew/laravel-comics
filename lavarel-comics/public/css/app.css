@@ -65,11 +65,6 @@ header .header-bot ul a {
   font-weight: bold;
 }
 
-header .header-bot ul a i {
-  color: #418ae2;
-  padding-left: 3px;
-}
-
 header .header-bot ::-webkit-input-placeholder {
   float: right;
   margin-right: 30px;
@@ -82,7 +77,7 @@ header .header-bot .input-search {
   position: relative;
 }
 
-header .header-bot input {
+header .header-bot .input-search input {
   margin-left: 40px;
   border: none;
   border-bottom: 2px solid #418ae2;
@@ -91,7 +86,7 @@ header .header-bot input {
   width: 100%;
 }
 
-header .header-bot i {
+header .header-bot .input-search i {
   position: absolute;
   right: -40px;
   top: 4px;
@@ -157,5 +152,75 @@ header .header-bot i {
   font-size: 15px;
   padding: 10px 25px;
   border: none;
+}
+
+.icons {
+  background-color: #418ae2;
+  color: white;
+}
+
+.icons ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  padding: 40px 0;
+}
+
+.icons ul li {
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+.icons ul li img {
+  height: 60px;
+  width: auto;
+  margin-right: 15px;
+}
+
+.icons ul li #svg {
+  height: 40px;
+  width: auto;
+}
+
+.footer-top {
+  height: 400px;
+  background-image: url("/storage/images/footer-bg.jpg");
+  background-size: cover;
+}
+
+.footer-top .lists {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  background-image: url("/storage/images/dc-logo-bg.png");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 600px 600px;
+}
+
+.footer-top .lists ul {
+  list-style-type: none;
+  padding: 20px 0;
+}
+
+.footer-top .lists ul li {
+  margin: 5px 30px;
+}
+
+.footer-top .lists ul li a {
+  color: grey;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.footer-top .lists ul li h3 {
+  margin: 20px 0;
+  color: white;
+}
+
+.footer-top .lists ul li .blue {
+  color: #418ae2;
 }
 

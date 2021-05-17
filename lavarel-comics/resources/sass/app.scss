@@ -55,10 +55,6 @@ header {
         text-decoration: none;
         color: black;
         font-weight: bold;
-        i {
-          color: rgb(65, 138, 226);
-          padding-left: 3px;
-        }
       }
     }
     ::-webkit-input-placeholder {
@@ -70,76 +66,140 @@ header {
     }
     .input-search {
       position: relative;
-    }
-    input {
-      margin-left:40px;
-      border: none;
-      border-bottom: 2px solid rgb(65, 138, 226);
-      height: 20px;
-      outline: none;
-      width: 100%;
-    }
-    i {
-      position: absolute;
-      right: -40px;
-      top: 4px;
-      font-size: 16px;
-      color: black;
+      input {
+        margin-left:40px;
+        border: none;
+        border-bottom: 2px solid rgb(65, 138, 226);
+        height: 20px;
+        outline: none;
+        width: 100%;
+      }
+      i {
+        position: absolute;
+        right: -40px;
+        top: 4px;
+        font-size: 16px;
+        color: black;
+      }
     }
   }
 }
-
-// MAIN SECTION
+  // MAIN SECTION
 
 .jumbotron {
   height: 450px;
   background-image: url("/storage/images/jumbotron.jpg");
 }
 
-.comics {
-  background-color: #1C1C1C;
-  color: white;
-  position: relative;
-  h2 {
-    text-align: center;
-    background-color:rgb(65, 138, 226);
-    padding: 20px 30px;
-    position: absolute;
-    top: -40px;
-  }
-  ul {
-    list-style-type: none;
-    padding-top: 60px ;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    li {
-      flex-basis: 15%;
-      margin: 10px 0;
-      .images {
-        overflow: hidden;
-        height: 200px;
-        img {
-          height: 300px;
-          width: 100%;
+  // SEZION CURRENT SERIES
+  .comics {
+    background-color: #1C1C1C;
+    color: white;
+    position: relative;
+    h2 {
+      text-align: center;
+      background-color:rgb(65, 138, 226);
+      padding: 20px 30px;
+      position: absolute;
+      top: -40px;
+    }
+    ul {
+      list-style-type: none;
+      padding-top: 60px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      li {
+        flex-basis: 15%;
+        margin: 10px 0;
+        .images {
+          overflow: hidden;
+          height: 200px;
+          img {
+            height: 300px;
+            width: 100%;
+          }
+        }
+        p {
+          margin: 30px 0;
         }
       }
-      p {
-        margin: 30px 0;
+    }
+    .btn {
+      text-align: center;
+      padding-bottom: 30px;
+      #load {
+        background-color: rgb(65, 138, 226);
+        color: white;
+        font-weight: bold;
+        font-size: 15px;
+        padding: 10px 25px;
+        border: none;
       }
     }
   }
-  .btn {
-    text-align: center;
-    padding-bottom: 30px;
-    #load {
-      background-color: rgb(65, 138, 226);
-      color: white;
-      font-weight: bold;
-      font-size: 15px;
-      padding: 10px 25px;
-      border: none;
 
+
+  // SEZIONE ICONS
+
+.icons {
+  background-color: rgb(65, 138, 226);
+  color: white;
+  ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 40px 0;
+    li {
+      margin: 0 20px;
+      display: flex;
+      align-items: center;
+      img {
+        height: 60px;
+        width: auto;
+        margin-right: 15px;
+      }
+      #svg {
+        height: 40px;
+        width: auto;
+      }
+    }
+  }
+}
+
+// FOOTER SECTION
+.footer-top {
+  height: 400px;
+  background-image: url("/storage/images/footer-bg.jpg");
+  background-size: cover;
+
+  .lists {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    overflow: hidden;
+    background-image: url("/storage/images/dc-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size:600px 600px;
+    ul {
+      list-style-type: none;
+      padding: 20px 0;
+      li {
+        margin: 5px 30px;
+        a {
+          color: grey;
+          font-size: 12px;
+          text-decoration: none;
+        }
+        h3 {
+          margin: 20px 0;
+          color: white;
+        }
+        .blue {
+          color: rgb(65, 138, 226);
+        }
+      }
     }
   }
 }

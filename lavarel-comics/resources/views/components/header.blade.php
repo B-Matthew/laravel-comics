@@ -21,7 +21,7 @@
             <li><a href="#">VIDEOS</a></li>
             <li><a href="#">FANS</a></li>
             <li><a href="#">NEWS</a></li>
-            <li><a href="#">SHOP<i class="fas fa-caret-down"></i></a></li>
+            <li><a href="#">SHOP</a></li>
           </ul>
           <div class="input-search">
             <input type="text" name="" value="" placeholder="Search">
