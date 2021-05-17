@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+}
+
+header {
+  height: 130px;
+}
+
+header .header-top {
+  background-color: #418ae2;
+  height: 18%;
+  color: white;
+}
+
+header .header-top .flex {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header .header-top .flex p {
+  font-size: 11px;
+  margin-left: 50px;
+  padding-top: 3px;
+}
+
+header .header-bot {
+  background-color: white;
+  height: 82%;
+}
+
+header .header-bot .flex {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .header-bot img {
+  width: 70px;
+  height: auto;
+  margin-right: 40px;
+}
+
+header .header-bot ul {
+  display: flex;
+  justify-content: space-around;
+  flex-grow: 1;
+  list-style-type: none;
+}
+
+header .header-bot ul a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+header .header-bot ul a i {
+  color: #418ae2;
+  padding-left: 3px;
+}
+
+header .header-bot ::-webkit-input-placeholder {
+  float: right;
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+}
+
+header .header-bot .input-search {
+  position: relative;
+}
+
+header .header-bot input {
+  margin-left: 40px;
+  border: none;
+  border-bottom: 2px solid #418ae2;
+  height: 20px;
+  outline: none;
+  width: 100%;
+}
+
+header .header-bot i {
+  position: absolute;
+  right: -40px;
+  top: 4px;
+  font-size: 16px;
+  color: black;
+}
+
+.jumbotron {
+  height: 450px;
+  background-image: url("/storage/images/jumbotron.jpg");
+}
+
+.comics {
+  background-color: #1C1C1C;
+  color: white;
+  position: relative;
+}
+
+.comics h2 {
+  text-align: center;
+  background-color: #418ae2;
+  padding: 20px 30px;
+  position: absolute;
+  top: -40px;
+}
+
+.comics ul {
+  list-style-type: none;
+  padding-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.comics ul li {
+  flex-basis: 15%;
+  margin: 10px 0;
+}
+
+.comics ul li .images {
+  overflow: hidden;
+  height: 200px;
+}
+
+.comics ul li .images img {
+  height: 300px;
+  width: 100%;
+}
+
+.comics ul li p {
+  margin: 30px 0;
+}
+
+.comics .btn {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.comics .btn #load {
+  background-color: #418ae2;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 25px;
+  border: none;
+}
+

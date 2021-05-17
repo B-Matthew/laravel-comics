@@ -17,4 +17,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('homepage', 'myController@home');
+Route::get('homepage' , 'myController@homepage');
