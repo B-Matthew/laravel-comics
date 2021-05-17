@@ -152,6 +152,7 @@ header .header-bot .input-search i {
   font-size: 15px;
   padding: 10px 25px;
   border: none;
+  cursor: pointer;
 }
 
 .icons {
@@ -184,43 +185,89 @@ header .header-bot .input-search i {
 }
 
 .footer-top {
-  height: 400px;
+  height: 480px;
   background-image: url("/storage/images/footer-bg.jpg");
   background-size: cover;
 }
 
-.footer-top .lists {
-  height: 100%;
-  display: flex;
-  justify-content: flex-start;
-  overflow: hidden;
+.footer-top .dcImg {
+  height: 480px;
   background-image: url("/storage/images/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: right;
-  background-size: 600px 600px;
+  background-size: 620px 620px;
 }
 
-.footer-top .lists ul {
+.footer-top .dcImg .lists {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.footer-top .dcImg .lists ul {
   list-style-type: none;
-  padding: 20px 0;
+  padding: 26px 0;
 }
 
-.footer-top .lists ul li {
-  margin: 5px 30px;
+.footer-top .dcImg .lists ul li {
+  margin: 5px 35px 5px 0;
 }
 
-.footer-top .lists ul li a {
+.footer-top .dcImg .lists ul li a {
   color: grey;
   font-size: 12px;
   text-decoration: none;
 }
 
-.footer-top .lists ul li h3 {
+.footer-top .dcImg .lists ul li h3 {
   margin: 20px 0;
   color: white;
 }
 
-.footer-top .lists ul li .blue {
+.footer-top p {
+  font-size: 12px;
+  color: grey;
+}
+
+.footer-top p .blue {
   color: #418ae2;
+  text-decoration: none;
+}
+
+.footer-bot {
+  height: 120px;
+  background-color: #323232;
+}
+
+.footer-bot .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.footer-bot .container button {
+  color: white;
+  background-color: transparent;
+  font-size: 18px;
+  border: 2px solid #418ae2;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.footer-bot .container .social {
+  display: flex;
+  align-items: center;
+}
+
+.footer-bot .container .social a {
+  color: #418ae2;
+  text-decoration: none;
+  font-size: 23px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.footer-bot .container .social img {
+  margin: 0 10px;
 }
 

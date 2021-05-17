@@ -135,6 +135,7 @@ header {
         font-size: 15px;
         padding: 10px 25px;
         border: none;
+        cursor: pointer;
       }
     }
   }
@@ -169,36 +170,74 @@ header {
 
 // FOOTER SECTION
 .footer-top {
-  height: 400px;
+  height: 480px;
   background-image: url("/storage/images/footer-bg.jpg");
   background-size: cover;
-
-  .lists {
-    height: 100%;
-    display: flex;
-    justify-content: flex-start;
-    overflow: hidden;
+  .dcImg{
+    height: 480px;
     background-image: url("/storage/images/dc-logo-bg.png");
     background-repeat: no-repeat;
     background-position: right;
-    background-size:600px 600px;
-    ul {
-      list-style-type: none;
-      padding: 20px 0;
-      li {
-        margin: 5px 30px;
-        a {
-          color: grey;
-          font-size: 12px;
-          text-decoration: none;
+    background-size:620px 620px;
+    .lists {
+      display: flex;
+      justify-content: flex-start;
+      ul {
+        list-style-type: none;
+        padding: 26px 0;
+        li {
+          margin: 5px 35px 5px 0;
+          a {
+            color: grey;
+            font-size: 12px;
+            text-decoration: none;
+          }
+          h3 {
+            margin: 20px 0;
+            color: white;
+          }
         }
-        h3 {
-          margin: 20px 0;
-          color: white;
-        }
-        .blue {
-          color: rgb(65, 138, 226);
-        }
+      }
+    }
+  }
+  p {
+    font-size: 12px;
+    color: grey;
+    .blue {
+      color: rgb(65, 138, 226);
+      text-decoration: none;
+    }
+  }
+}
+
+.footer-bot {
+  height: 120px;
+  background-color: rgb(50, 50, 50);
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    button {
+      color: white;
+      background-color: transparent;
+      font-size: 18px;
+      border: 2px solid rgb(65, 138, 226);
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+    .social{
+      display: flex;
+      align-items: center;
+      a {
+        color: rgb(65, 138, 226);
+        text-decoration: none;
+        font-size: 23px;
+        font-weight: bold;
+        margin-right: 10px;
+      }
+      img {
+        margin: 0 10px;
       }
     }
   }
