@@ -10,7 +10,7 @@
     <section class="header-bot">
       <div class="container">
         <div class="flex">
-          <img src="{{ asset('/storage/images/dc-logo.png') }}" alt="">
+          <a href="{{ route('homepage') }}"><img src="{{ asset('/storage/images/dc-logo.png') }}" alt=""></a>
           <ul>
             <li><a href="#">CHARACTERS</a></li>
             <li><a href="#">COMICS</a></li>
