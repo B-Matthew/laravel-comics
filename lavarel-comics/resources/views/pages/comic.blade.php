@@ -35,13 +35,13 @@
         <div class="flex-comic">
           <h5>Art By:</h5>
           <p>@foreach ($item['artists'] as $artist)
-            <span>{{$artist}},</span>
+            <span>{{ $loop->last ? $artist : $artist . ','  }}</span>
           @endforeach</p>
         </div>
         <div class="flex-comic">
           <h5>Written By:</h5>
           <p>@foreach ($item['writers'] as $writer)
-            <span>{{$writer}},</span>
+            <span>{{ $loop->last ? $writer : $writer . ','  }}</span>
           @endforeach</p>
         </div>
       </div>

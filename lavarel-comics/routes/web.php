@@ -13,12 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-
-Route::get('homepage' , 'myController@homepage')
-      ->name('homepage');
+Route::get('/' , 'myController@homepage')
+->name('homepage');
 
 Route::get('/comic/{index}' , 'myController@comicSelected')
-      ->name('comic');
+->name('comic');
