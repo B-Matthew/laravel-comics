@@ -67,19 +67,19 @@
     <div class="container-comic">
       <div class="icon-box">
         <h5>DIGITAL COMICS</h5>
-        <img src="{{ asset('/storage/images/buy-comics-digital-comics.png') }}" alt="">
+        <img src="{{ asset('/storage/images/icons-1.png') }}" alt="">
       </div>
       <div class="icon-box">
         <h5>SHOP DC</h5>
-        <img src="{{ asset('/storage/images/buy-comics-merchandise.png') }}" alt="">
+        <img src="{{ asset('/storage/images/icons-2.png') }}" alt="">
       </div>
       <div class="icon-box">
         <h5>COMIC SHOP LOCATOR</h5>
-        <img src="{{ asset('/storage/images/buy-comics-shop-locator.png') }}" alt="">
+        <img src="{{ asset('/storage/images/icons-3.png') }}" alt="">
       </div>
       <div class="icon-box">
         <h5>SUBSCRIPTIONS</h5>
-        <img id="svg" src="{{ asset('/storage/images/buy-dc-power-visa.svg') }}" alt="">
+        <img id="svg" src="{{ asset('/storage/images/icons-4.png') }}" alt="">
       </div>
     </div>
   </section>
