@@ -8,7 +8,7 @@
             @foreach ($data as $comic)
               <li>
                 <div class="images">
-                  <img src="{{$comic['thumb']}}" alt="">
+                  <a href="{{ route('comic',$loop->index)}}"><img src="{{$comic['thumb']}}" alt=""></a>
                 </div>
                 <p><a href="{{ route('comic',$loop->index)}}">{{$comic['series']}}</a></p>
               </li>

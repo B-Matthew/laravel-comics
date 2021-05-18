@@ -140,6 +140,11 @@ header .header-bot .input-search i {
   margin: 30px 0;
 }
 
+.comics ul li p a {
+  color: white;
+  text-decoration: none;
+}
+
 .comics .btn {
   text-align: center;
   padding-bottom: 30px;
@@ -269,5 +274,187 @@ header .header-bot .input-search i {
 
 .footer-bot .container .social img {
   margin: 0 10px;
+}
+
+.container-comic {
+  width: 60%;
+  margin: auto;
+}
+
+.title-comic {
+  height: 100px;
+  background-color: #418ae2;
+}
+
+.title-comic .container-comic {
+  position: relative;
+}
+
+.title-comic .container-comic .img-comic {
+  position: absolute;
+}
+
+.title-comic .container-comic .img-comic img {
+  position: absolute;
+  left: 0;
+  bottom: -70px;
+  z-index: 1;
+  border: 1px solid white;
+}
+
+.title-comic .container-comic .img-comic #book {
+  bottom: 200px;
+  padding: 0 2px;
+  background-color: #418ae2;
+  width: 106px;
+  left: 1px;
+  position: absolute;
+  color: white;
+  z-index: 50;
+}
+
+.title-comic .container-comic .img-comic #gallery {
+  position: absolute;
+  color: white;
+  z-index: 50;
+  background-color: #418ae2;
+  width: 192px;
+  text-align: center;
+  left: 1px;
+  bottom: -69px;
+}
+
+.description-comic .container-comic {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.description-comic .container-comic .box-comic1 {
+  flex-basis: 65%;
+}
+
+.description-comic .container-comic .box-comic1 .avaible-comic {
+  background-color: #2dce35;
+  display: flex;
+  color: white;
+  margin: 20px 0;
+}
+
+.description-comic .container-comic .box-comic1 .avaible-comic p:first-child {
+  flex-grow: 1;
+}
+
+.description-comic .container-comic .box-comic1 .avaible-comic p:last-child {
+  border-left: 1px solid black;
+}
+
+.description-comic .container-comic .box-comic1 .avaible-comic p {
+  padding: 10px 20px;
+}
+
+.description-comic .container-comic .box-comic2 {
+  flex-basis: 300px;
+}
+
+.description-comic .container-comic .box-comic2 h4 {
+  float: right;
+}
+
+.specs {
+  background-color: #f0f0f0;
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
+.specs .container-comic {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+}
+
+.specs .container-comic .talent-comic {
+  flex-basis: 50%;
+}
+
+.specs .container-comic .talent-comic h4 {
+  border-bottom: 1px solid lightgrey;
+  padding: 20px 0;
+}
+
+.specs .container-comic .talent-comic .flex-comic {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 0;
+}
+
+.specs .container-comic .talent-comic .flex-comic h5 {
+  flex-basis: 25%;
+}
+
+.specs .container-comic .talent-comic .flex-comic p {
+  flex-basis: 75%;
+  color: #418ae2;
+}
+
+.specs .container-comic .spec-comic {
+  flex-basis: 40%;
+}
+
+.specs .container-comic .spec-comic h4 {
+  border-bottom: 1px solid lightgrey;
+  padding: 20px 0;
+}
+
+.specs .container-comic .spec-comic .flex-comic {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  border-bottom: 1px solid lightgrey;
+  padding: 10px 0;
+}
+
+.specs .container-comic .spec-comic .flex-comic #blue {
+  color: #418ae2;
+  text-transform: uppercase;
+}
+
+.specs .container-comic .spec-comic .flex-comic h5 {
+  flex-basis: 35%;
+}
+
+.specs .container-comic .spec-comic .flex-comic p {
+  flex-basis: 65%;
+}
+
+.icon-comic {
+  background-color: #f0f0f0;
+}
+
+.icon-comic .container-comic {
+  color: #b4b4b4;
+  display: flex;
+  justify-content: space-between;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+
+.icon-comic .container-comic .icon-box {
+  border-right: 1px solid lightgrey;
+  flex-basis: 25%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+.icon-comic .container-comic .icon-box img {
+  height: 50px;
+  width: auto;
+}
+
+.icon-comic .icon-box:last-child {
+  border: none;
 }
 

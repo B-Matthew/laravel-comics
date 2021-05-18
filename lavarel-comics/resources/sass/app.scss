@@ -15,6 +15,8 @@ body {
   margin: auto;
 }
 
+// HOMEPAGE
+
 // HEADER SECTION
 header {
   height: 130px;
@@ -122,6 +124,10 @@ header {
         }
         p {
           margin: 30px 0;
+          a {
+            color: white;
+            text-decoration: none;
+          }
         }
       }
     }
@@ -240,5 +246,172 @@ header {
         margin: 0 10px;
       }
     }
+  }
+}
+
+
+// COMIC PAGE
+
+.container-comic {
+  width: 60%;
+  margin: auto;
+}
+
+// SECTION TITLE-COMIC
+.title-comic {
+  height: 100px;
+  background-color: rgb(65, 138, 226);
+  .container-comic {
+    position: relative;
+    .img-comic{
+      position: absolute;
+      img{
+        position: absolute;
+        left: 0;
+        bottom: -70px;
+        z-index: 1;
+        border: 1px solid white;
+      }
+      #book {
+        bottom: 200px;
+        padding: 0 2px;
+        background-color: rgb(65, 138, 226);
+        width: 106px;
+        left: 1px;
+        position: absolute;
+        color: white;
+        z-index: 50;
+      }
+      #gallery {
+        position: absolute;
+        color: white;
+        z-index: 50;
+        background-color: rgb(65, 138, 226);
+        width: 192px;
+        text-align: center;
+        left: 1px;
+        bottom: -69px;
+      }
+    }
+  }
+}
+
+// SECTION DESCRIPTION
+
+.description-comic {
+  .container-comic {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    .box-comic1{
+      flex-basis: 65%;
+      .avaible-comic {
+        background-color: rgb(45, 206, 53);
+        display: flex;
+        color: white;
+        margin: 20px 0;
+        p:first-child {
+          flex-grow: 1;
+        }
+        p:last-child {
+          border-left: 1px solid black;
+        }
+        p {
+          padding: 10px 20px;
+        }
+      }
+    }
+    .box-comic2{
+      flex-basis: 300px;
+      h4 {
+        float: right;
+      }
+    }
+  }
+}
+
+// SECTION SPECS
+
+.specs {
+  background-color: rgb(240,240,240);
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  .container-comic {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    .talent-comic {
+      flex-basis: 50%;
+      h4 {
+        border-bottom: 1px solid lightgrey;
+        padding: 20px 0;
+      }
+      .flex-comic{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+        border-bottom: 1px solid lightgrey;
+        padding: 10px 0;
+        h5 {
+          flex-basis: 25%;
+        }
+        p {
+          flex-basis: 75%;
+          color: rgb(65, 138, 226);
+
+        }
+      }
+    }
+    .spec-comic {
+      flex-basis: 40%;
+      h4 {
+        border-bottom: 1px solid lightgrey;
+        padding: 20px 0;
+      }
+      .flex-comic{
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+        border-bottom: 1px solid lightgrey;
+        padding: 10px 0;
+        #blue {
+          color: rgb(65, 138, 226);
+          text-transform: uppercase;
+        }
+        h5 {
+          flex-basis: 35%;
+        }
+        p {
+          flex-basis: 65%;
+        }
+      }
+    }
+  }
+}
+
+// SECTION ICON_COMIC
+
+.icon-comic {
+  background-color: rgb(240,240,240);
+  .container-comic {
+    color: rgb(180,180,180);
+    display: flex;
+    justify-content: space-between;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    .icon-box {
+      border-right: 1px solid lightgrey;
+      flex-basis: 25%;
+      display: flex;
+      justify-content: space-between;
+      padding: 10px 10px;
+      img {
+        height: 50px;
+        width: auto;
+      }
+    }
+  }
+  .icon-box:last-child{
+    border: none;
   }
 }
